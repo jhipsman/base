@@ -26,7 +26,7 @@ supabase/migrations  the database: items table, search, file storage, security r
 ## Set up
 
 1. **Supabase**: create a project and run `supabase/migrations/0001_init.sql` in the SQL editor. Under Authentication > URL Configuration, set the Site URL to your Vercel address and add `https://<your-app>/auth/callback` as a redirect URL.
-2. **Vercel**: import the repository with **Root Directory** set to `base`, and set the environment variables in `.env.example`.
+2. **Vercel**: import this repository and set the environment variables in `.env.example`.
 3. Open the site on your phone, then use Share > **Add to Home Screen**.
 
 Run it on your own computer with `npm install`, `.env.local` filled in from `.env.example`, and `npm run dev`.
